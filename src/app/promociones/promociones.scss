@@ -1,0 +1,263 @@
+.bluu {
+    color: blue;
+    font-size: 21px;
+}
+
+#promociones {
+    font-weight: 300;
+    .title {
+        font-size: 3em;
+        color: $primary-color;
+    }
+    .ver-mas {
+        font-size: 1.2em;
+    }
+}
+
+#promo-list {
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+
+// md-card>:not(md-card-content) img, md-card>img {
+//   height: 100% !important;
+// }
+.home_landing-backgrounds-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 80vh;
+    min-height: 400px;
+    overflow: hidden;
+}
+
+.home_landing-backgrounds-wrap .home_landing-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* -webkit-transition: all 1.5s; */
+    /* transition: all 1.5s; */
+}
+
+.bg-image-full {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; // background-image: url('/assets/images/banner/banner3.png');
+}
+
+.home_landing {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    min-height: 400px;
+}
+
+.full-screen {
+    // position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.text-white {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.home_landing-content-wrap {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+    z-index: 10;
+    -webkit-transition: opacity 3s, border-bottom 2s ease .5s;
+    transition: opacity 3s, border-bottom 2s ease .5s;
+    opacity: 1;
+    text-align: center;
+}
+
+.vertical-content-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; // -webkit-box-align: center;
+    // -ms-flex-align: center;
+    // align-items: center;
+}
+
+.home_landing-content-wrap .container,
+.home_landing-content-wrap .container-fluid {
+    -webkit-transition: all 2s;
+    transition: all 2s;
+}
+
+.container-fluid {
+    width: 90%;
+    margin: 0 5%;
+    position: relative;
+}
+
+.home_landing-text {
+    width: 100%;
+    position: relative;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.home_landing-backgrounds-wrap .home_landing-background:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: rgba(17, 17, 17, 0.3);
+}
+
+// .home__landing-text h1 {
+//     -webkit-transform: translateY(0);
+//     transform: translateY(0);
+//     opacity: 1;
+// }
+// .home__landing-text h1{
+//     -webkit-transform: translateY(20px);
+//     transform: translateY(20px);
+//     opacity: 0;
+//     -webkit-transition: all 1s ease;
+//     transition: all 1s ease;
+// }
+.text-weight-light {
+    font-weight: 200;
+    line-height: 1.55;
+}
+
+h1,
+.h1 {
+    // font-family: "CalibreWeb";
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+h1 {
+    margin-top: 0;
+    text-decoration: none;
+}
+
+h1 {
+    clear: both;
+}
+
+.text-desc {
+    font-size: 1.3em;
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-container-horizontal>.swiper-pagination-bullets {
+    bottom: 0px !important;
+    left: 0;
+    width: 100%;
+}
+
+.own-flex {
+    flex: 0 1 calc(20% - 10px) !important;
+    margin: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    .own-flex {
+        flex: 0 1 calc(33% - 10px) !important;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .own-flex {
+        flex: 0 1 calc(50% - 10px) !important;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .own-flex {
+        flex: 0 1 calc(100%) !important;
+        margin: 5px;
+    }
+}
+
+.limit-width {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#iForm {
+    height: 100%; // background: url('/assets/images/backgrounds/march.jpg') no-repeat;
+    // background-size: cover;
+    #iForm-form-wrapper {
+        flex: 1 0 auto; // padding: 32px;
+        #iForm-form {
+            // width: 654px;
+            max-width: 754px;
+            padding: 31px;
+            background: #FFFFFF;
+            text-align: center;
+            font-weight: 400;
+            .logo {
+                /* width: 128px; */
+                /* height: 128px; */
+                line-height: 128px;
+                font-size: 56px;
+                /* margin: 12px auto; */
+                color: gray;
+                border-radius: 2px;
+            }
+            .title {
+                font-size: 18px;
+                margin: 16px 0 32px 0;
+                color: gray;
+            }
+            form {
+                width: 100%;
+                text-align: left;
+                md-checkbox {
+                    margin: 0;
+                }
+                .remember-forgot-password {
+                    font-size: 13px;
+                    margin-top: 8px;
+                    .remember-me {
+                        margin-bottom: 16px
+                    }
+                    .forgot-password {
+                        font-size: 13px;
+                        font-weight: 500;
+                        margin-bottom: 16px
+                    }
+                }
+                .description {
+                    padding-top: 8px;
+                    color: rgb(213, 0, 0);
+                }
+                .submit-button {
+                    width: 220px;
+                    margin: 16px auto;
+                    display: block;
+                }
+            }
+            .register {
+                margin: 32px auto 24px auto;
+                width: 250px;
+                font-weight: 500;
+                .text {
+                    margin-right: 8px;
+                }
+                .link {}
+            }
+        }
+    }
+}

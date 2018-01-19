@@ -1,0 +1,114 @@
+<div layout="column" id="promociones">
+
+    <div layout="row" layout-align="space-between" layout-padding layout-margin>
+        <div>
+            <span class="title">Shopping List</span>
+        </div>
+    </div>
+
+    <div layout="row" layout-wrap class="limit-width">
+
+        <md-card class="own-flex" ng-repeat="item in vm.items" flex="20" flex-xs="100" flex-sm="33" layout-align="center center">
+            <div style="padding:24px;max-height:260px">
+                <img ng-src="{{item.image}}" class="md-card-image" alt="camps" style="max-height:250px">
+            </div>
+
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">{{item.name}}</span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+                <p>
+                    {{item.description}}
+                </p>
+            </md-card-content>
+            <md-card-actions layout="column" layout-align="start">
+                <div>
+                    <span>MXN {{item.unitPrice | currency:"$"}}</span>
+                    <span>
+                        <a ng-click="vm.updateItem(item,$index,'remove')">
+                            <md-icon class="material-icons md-light md-48"> remove_circle_outline </md-icon>
+                        </a>
+                        {{vm.getItemUnits($index)}}
+                        <a ng-click="vm.updateItem(item,$index,'add')">
+                            <md-icon class="material-icons md-light md-48"> add_circle_outline </md-icon>
+                        </a>
+
+                    </span>
+                </div>
+                <div>
+                    <p>Total :
+                        <span> {{vm.getItemTotal($index) | currency:"$"}}</span>
+                    </p>
+                </div>
+
+            </md-card-actions>
+        </md-card>
+    </div>
+
+    <div class="xdd" layout="row" layout-align="space-between" layout-padding layout-margin>
+        <div>
+            <span class="title">Total: {{vm.total | currency:"$"}}</span>
+        </div>
+    </div>
+
+    <div id="iForm" class="flex-scrollable" layout="column" ng-show="vm.total > 0">
+        <!-- ms-scroll -->
+
+        <div id="iForm-form-wrapper" layout="column" layout-align="center center">
+            <div id="iForm-form" class="md-whiteframe-8dp">
+                <div class="logo">
+                    <span>Finalizar Compra</span>
+                </div>
+
+                <div class="title">Rellene el siguiente formulario</div>
+
+                <form name="subForm" novalidate ng-submit="subForm.$valid && vm.submit()">
+                    <md-input-container class="md-block" md-no-float>
+                        <input type="username" name="username" ng-model="vm.formData.username" placeholder="Nombre completo" required>
+                        <div ng-messages="subForm.username.$error" role="alert" multiple>
+                            <div ng-message="required">
+                                <span>Campo requerido</span>
+                            </div>
+                        </div>
+                    </md-input-container>
+
+                    <md-input-container class="md-block" md-no-float>
+                        <input type="address" name="address" ng-model="vm.formData.address" placeholder="Dirección" required>
+                        <div ng-messages="subForm.address.$error" role="alert">
+                            <div ng-message="required">
+                                <span>Campo requerido</span>
+                            </div>
+                        </div>
+                    </md-input-container>
+
+                    <div class="description">{{vm.error}}
+                    </div>
+                    <p>Es un regalo:
+                        <span class="radioValue">{{ data.group1 }}</span>
+                    </p>
+                    <md-radio-group ng-model="vm.formData.present">
+                        <md-radio-button value="SI" class="md-primary">Si</md-radio-button>
+                        <md-radio-button value="NO"> No </md-radio-button>
+                    </md-radio-group>
+
+                    <div class="remember-forgot-password" layout="row" layout-xs="column" layout-align="space-between center">
+                        <md-checkbox class="remember-me" ng-model="vm.formData.isComplete" aria-label="">
+                            <span>La información es correcta</span>
+                        </md-checkbox>
+
+                    </div>
+
+                    <md-button ng-disabled="!vm.formData.isComplete" type="submit" class="md-raised md-accent submit-button white-text-color">
+                        Pagar
+                    </md-button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+</div>

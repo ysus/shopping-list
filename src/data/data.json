@@ -1,0 +1,38 @@
+{
+    "info": [
+        {
+            "id":0,
+            "name":"LG Q6+",
+            "description":"La cámara, diseño y pantalla son los pilares de este teléfono.",
+            "image":"https://www.gadgetsnow.com/photo/59543607/LG-Q6-Plus.jpg",
+            "unitPrice":8999
+        },
+        {
+            "id":1,
+            "name":"Nokia 6",
+            "description":"La cámara, diseño y pantalla son los pilares de este teléfono.",
+            "image":"http://st1.bgr.in/wp-content/uploads/2014/09/eb0eb78443a572a8e32db1f39a520a0f_375x500_1.jpg",
+            "unitPrice":7979
+        },
+        {
+            "id":2,
+            "name":"Moto G5 Plus",
+            "description":"La cámara, diseño y pantalla son los pilares de este teléfono.",
+            "image":"https://mx.celulares.com/fotos/motorola-moto-g5-plus-46035-g-alt.jpg",
+            "unitPrice":12345
+        },{
+            "id":3,
+            "name":"Moto X4",
+            "description":"La cámara, diseño y pantalla son los pilares de este teléfono.",
+            "image":"https://static.toiimg.com/photo/60321327/.jpg",
+            "unitPrice":10345
+        },{
+            "id":4,
+            "name":"Xiaomi Mi A1",
+            "description":"La cámara, diseño y pantalla son los pilares de este teléfono.",
+            "image":"https://www.casademi.es/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/_/1_7_3_1.jpg",
+            "unitPrice":4500
+        }
+    ],
+    "success": true
+}

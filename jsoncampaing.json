@@ -1,0 +1,118 @@
+
+{
+  "success": true,
+  "data": {
+    "campaigns": [
+      {
+        "id": 1,
+        "country": {
+          "id": 1,
+          "name": "Mexico",
+          "code": "MX"
+        },
+        "destinations": [
+          {
+            "name": "Yucatan",
+            "kindOfDestination": {
+              "id": 1,
+              "spanishName": "Playa",
+              "englishName": "playa",
+              "frenchName": "playeee",
+              "spanishDescription": "test",
+              "englishDescription": "test",
+              "frenchDescription": "test"
+            },
+            "iatas": [
+              {
+                "id": 1,
+                "name": "SEFV234"
+              }
+            ]
+          }
+        ],
+        "classification": {
+          "id": 1,
+          "spanishName": "Nacional",
+          "englishName": "Nacional",
+          "frenchName": "Nacional",
+          "spanishDescription": "<p style=\"text-align: left;\">Test<strong>vhjhvjhvjhvjj</strong></p>",
+          "englishDescription": "<p>Test<strong>b nn<em>kjkjkjhkj</em></strong></p>",
+          "frenchDescription": "<p><span style=\"text-decoration: underline;\"><em>mbkjbkbkkjbkjbk</em></span>Test</p>",
+          "value": 100
+        },
+        "subclassification": {
+          "id": 1,
+          "classification": 1,
+          "spanishName": "Subclasification",
+          "englishName": "Test",
+          "frenchName": "Test",
+          "spanishDescription": "Test",
+          "englishDescription": "Test",
+          "frenchDescription": "Test"
+        },
+        "highlights": [
+          {
+            "id": 1,
+            "desktopImage": "2017/3/9/93878e878f60.png",
+            "mobileImage": "2017/3/9/c57cae7bce01.png",
+            "title": "YucatanHghlt",
+            "spanishDescription": "Test",
+            "englishDescription": "Test",
+            "frenchDescription": "Test"
+          }
+        ],
+        "hotels": [
+          {
+            "id": 1,
+            "hotel": {
+              "id": 1,
+              "amenities": [
+                {
+                  "id": 1,
+                  "spanishName": "Alberca",
+                  "englishName": "swim pool",
+                  "frenchName": "alberqueee",
+                  "spanishDescription": "Test",
+                  "englishDescription": "Test",
+                  "frenchDescription": "Test"
+                }
+              ],
+              "name": "Hotel de prueba",
+              "address": "Direccion prueba",
+              "stars": "five",
+              "razeId": 24545,
+              "status": true
+            },
+            "destination": {
+              "id": 1,
+              "name": "Yucatan"
+            },
+            "corporate": "Juan",
+            "marketManager": "Pedro",
+            "order": 1
+          }
+        ],
+        "spanishName": "Test",
+        "englishName": "Test",
+        "frenchName": "Test",
+        "url": "www.intertours.com/campaigns/yucatan",
+        "numberOfNights": 24,
+        "startTravelWindow": "2017-03-01",
+        "endTravelWindow": "2017-03-31",
+        "startBookingWindow": "2017-03-10",
+        "endBookingWindow": "2017-03-29",
+        "predeterminatedOption": "STA",
+        "staticDate": "2017-03-15",
+        "dynamicDate": "2017-03-17",
+        "bar": "2017-03-17",
+        "isActive": false,
+        "isPreview": true,
+        "spanishSeoDescription": "Test",
+        "englishSeoDescription": "Test",
+        "frenchSeoDescription": "Test",
+        "created": "2017-03-09T17:08:20.955134Z",
+        "modified": "2017-03-09T17:08:20.955158Z"
+      }
+    ]
+  }
+}

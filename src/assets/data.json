@@ -1,0 +1,413 @@
+{
+    "data": [
+        {
+            "spanishName": "Test",
+            "englishName": "Test",
+            "frenchName": "Test",
+            "classification": {
+                "id": 1,
+                "url": "nacional_mx",
+                "spanishName": "Nacional",
+                "englishName": "Nacional",
+                "frenchName": "Nacional",
+                "spanishDescription": "<p style=\"text-align: left;\">Test<strong>vhjhvjhvjhvjj</strong></p>",
+                "englishDescription": "<p>Test<strong>b nn<em>kjkjkjhkj</em></strong></p>",
+                "frenchDescription": "<p><span style=\"text-decoration: underline;\"><em>mbkjbkbkkjbkjbk</em></span>Test</p>",
+                "value": 100
+            },
+            "subclassification": {
+                "id": 1,
+                "classification": 1,
+                "url": "nacionalSub_mx",
+                "spanishName": "Subclasification",
+                "englishName": "Test",
+                "frenchName": "Test",
+                "spanishDescription": "<p>Test</p>",
+                "englishDescription": "<p>Test</p>",
+                "frenchDescription": "<p>Test</p>"
+            },
+            "highlights": [
+                {
+                    "id": 1,
+                    "desktopImage": "http://59a65efd.ngrok.io/api/v1/serve/2017/3/16/d12fcde82d86.jpg",
+                    "mobileImage": "http://59a65efd.ngrok.io/api/v1/serve/2017/3/16/f6534a7d27b1.jpg",
+                    "spanishTitle": null,
+                    "englishTitle": null,
+                    "frenchTitle": null,
+                    "spanishDescription": "<p>Test</p>",
+                    "englishDescription": "<p>Test</p>",
+                    "frenchDescription": "<p>Test</p>"
+                }
+            ],
+            "spanishSeoDescription": "<p>Test</p>",
+            "englishSeoDescription": "<p>Test</p>",
+            "frenchSeoDescription": "<p>Test</p>",
+            "url": "yucatan",
+            "countryCode": "MX",
+            "destinations": [
+                {
+                    "id": 1,
+                    "name": "Yucatan"
+                }
+            ]
+        },
+        {
+            "spanishName": "Campaña 2",
+            "englishName": "Campaña 2",
+            "frenchName": "Campaña 2",
+            "classification": {
+                "id": 3,
+                "url": "international_us",
+                "spanishName": "Internacional",
+                "englishName": "Internacional",
+                "frenchName": "Internacional",
+                "spanishDescription": "<p>Descripcion</p>",
+                "englishDescription": "<p>Descripcion</p>",
+                "frenchDescription": "<p>Descripcion</p>",
+                "value": 1
+            },
+            "subclassification": {
+                "id": 4,
+                "classification": 4,
+                "url": "internationalSubus_entertaiment",
+                "spanishName": "entertaiment",
+                "englishName": "entertaiment",
+                "frenchName": "entertaiment",
+                "spanishDescription": "<p>descripcion</p>",
+                "englishDescription": "<p>descripcion</p>",
+                "frenchDescription": "<p>descripcion</p>"
+            },
+            "highlights": [
+                {
+                    "id": 2,
+                    "desktopImage": "http://59a65efd.ngrok.io/api/v1/serve/2017/3/16/0d6b0af2fb44.jpg",
+                    "mobileImage": "http://59a65efd.ngrok.io/api/v1/serve/2017/3/16/76e941843084.jpg",
+                    "spanishTitle": null,
+                    "englishTitle": null,
+                    "frenchTitle": null,
+                    "spanishDescription": "<p>Descripcion</p>",
+                    "englishDescription": "<p>Descripcion</p>",
+                    "frenchDescription": "<p>Descripcion</p>"
+                }
+            ],
+            "spanishSeoDescription": "<p>Descripcion</p>",
+            "englishSeoDescription": "<p>Descripcion</p>",
+            "frenchSeoDescription": "<p>Descripcion</p>",
+            "url": "newyork",
+            "countryCode": "US",
+            "destinations": [
+                {
+                    "id": 2,
+                    "name": "New York"
+                }
+            ]
+        },
+        {
+            "spanishName": "Campaña 3",
+            "englishName": "Campaña 3",
+            "frenchName": "Campaña 3",
+            "classification": {
+                "id": 1,
+                "url": "nacional_mx",
+                "spanishName": "Nacional",
+                "englishName": "Nacional",
+                "frenchName": "Nacional",
+                "spanishDescription": "<p style=\"text-align: left;\">Test<strong>vhjhvjhvjhvjj</strong></p>",
+                "englishDescription": "<p>Test<strong>b nn<em>kjkjkjhkj</em></strong></p>",
+                "frenchDescription": "<p><span style=\"text-decoration: underline;\"><em>mbkjbkbkkjbkjbk</em></span>Test</p>",
+                "value": 100
+            },
+            "subclassification": {
+                "id": 3,
+                "classification": 3,
+                "url": "nacionalSubmx_playas",
+                "spanishName": "Playas de mexico",
+                "englishName": "Playas de mexico",
+                "frenchName": "Playas de mexico",
+                "spanishDescription": "<p>descripcion</p>",
+                "englishDescription": "<p>descripcion</p>",
+                "frenchDescription": "<p>descripcion</p>"
+            },
+            "highlights": [
+                {
+                    "id": 3,
+                    "desktopImage": "http://59a65efd.ngrok.io/api/v1/serve/2017/3/16/97878c6c6fa0.png",
+                    "mobileImage": "http://59a65efd.ngrok.io/api/v1/serve/2017/3/16/a99e54a2437c.png",
+                    "spanishTitle": null,
+                    "englishTitle": null,
+                    "frenchTitle": null,
+                    "spanishDescription": "<p>descripcion</p>",
+                    "englishDescription": "<p>descripcion</p>",
+                    "frenchDescription": "<p>descripcion</p>"
+                }
+            ],
+            "spanishSeoDescription": "<p>descripcion</p>",
+            "englishSeoDescription": "<p>descripcion</p>",
+            "frenchSeoDescription": "<p>descripcion</p>",
+            "url": "marqueliaCampaign17",
+            "countryCode": "MX",
+            "destinations": [
+                {
+                    "id": 3,
+                    "name": "Marquelia"
+                }
+            ]
+        },
+        {
+            "spanishName": "Campaña 4",
+            "englishName": "Campaña 4",
+            "frenchName": "Campaña 4",
+            "classification": {
+                "id": 1,
+                "url": "nacional_mx",
+                "spanishName": "Nacional",
+                "englishName": "Nacional",
+                "frenchName": "Nacional",
+                "spanishDescription": "<p style=\"text-align: left;\">Test<strong>vhjhvjhvjhvjj</strong></p>",
+                "englishDescription": "<p>Test<strong>b nn<em>kjkjkjhkj</em></strong></p>",
+                "frenchDescription": "<p><span style=\"text-decoration: underline;\"><em>mbkjbkbkkjbkjbk</em></span>Test</p>",
+                "value": 100
+            },
+            "subclassification": {
+                "id": 3,
+                "classification": 3,
+                "url": "nacionalSubmx_playas",
+                "spanishName": "Playas de mexico",
+                "englishName": "Playas de mexico",
+                "frenchName": "Playas de mexico",
+                "spanishDescription": "<p>descripcion</p>",
+                "englishDescription": "<p>descripcion</p>",
+                "frenchDescription": "<p>descripcion</p>"
+            },
+            "highlights": [
+                {
+                    "id": 4,
+                    "desktopImage": "http://59a65efd.ngrok.io/api/v1/serve/2017/3/16/6dbea3c152b3.jpg",
+                    "mobileImage": "http://59a65efd.ngrok.io/api/v1/serve/2017/3/16/931dc3d1e06e.jpg",
+                    "spanishTitle": null,
+                    "englishTitle": null,
+                    "frenchTitle": null,
+                    "spanishDescription": "<p>descripcion</p>",
+                    "englishDescription": "<p>descripcion</p>",
+                    "frenchDescription": "<p>descripcion</p>"
+                }
+            ],
+            "spanishSeoDescription": "<p>descripcion</p>",
+            "englishSeoDescription": "<p>descripcion</p>",
+            "frenchSeoDescription": "<p>descripcion</p>",
+            "url": "acapulco2017",
+            "countryCode": "MX",
+            "destinations": [
+                {
+                    "id": 4,
+                    "name": "Acapulco"
+                }
+            ]
+        },
+        {
+            "spanishName": "Campaña 5",
+            "englishName": "Campaña 5",
+            "frenchName": "Campaña 5",
+            "classification": {
+                "id": 3,
+                "url": "international_us",
+                "spanishName": "Internacional",
+                "englishName": "Internacional",
+                "frenchName": "Internacional",
+                "spanishDescription": "<p>Descripcion</p>",
+                "englishDescription": "<p>Descripcion</p>",
+                "frenchDescription": "<p>Descripcion</p>",
+                "value": 1
+            },
+            "subclassification": {
+                "id": 4,
+                "classification": 4,
+                "url": "internationalSubus_entertaiment",
+                "spanishName": "entertaiment",
+                "englishName": "entertaiment",
+                "frenchName": "entertaiment",
+                "spanishDescription": "<p>descripcion</p>",
+                "englishDescription": "<p>descripcion</p>",
+                "frenchDescription": "<p>descripcion</p>"
+            },
+            "highlights": [
+                {
+                    "id": 5,
+                    "desktopImage": "http://59a65efd.ngrok.io/api/v1/serve/2017/3/16/ff624682d818.jpg",
+                    "mobileImage": "http://59a65efd.ngrok.io/api/v1/serve/2017/3/16/982c03915580.jpg",
+                    "spanishTitle": null,
+                    "englishTitle": null,
+                    "frenchTitle": null,
+                    "spanishDescription": "<p>descripcion</p>",
+                    "englishDescription": "<p>descripcion</p>",
+                    "frenchDescription": "<p>descripcion</p>"
+                }
+            ],
+            "spanishSeoDescription": "<p>descripcion</p>",
+            "englishSeoDescription": "<p>descripcion</p>",
+            "frenchSeoDescription": "<p>descripcion</p>",
+            "url": "disneyland",
+            "countryCode": "US",
+            "destinations": [
+                {
+                    "id": 5,
+                    "name": "disneyland"
+                }
+            ]
+        },
+        {
+            "spanishName": "Campaña 6",
+            "englishName": "Campaña 6",
+            "frenchName": "Campaña 6",
+            "classification": {
+                "id": 3,
+                "url": "international_us",
+                "spanishName": "Internacional",
+                "englishName": "Internacional",
+                "frenchName": "Internacional",
+                "spanishDescription": "<p>Descripcion</p>",
+                "englishDescription": "<p>Descripcion</p>",
+                "frenchDescription": "<p>Descripcion</p>",
+                "value": 1
+            },
+            "subclassification": {
+                "id": 4,
+                "classification": 4,
+                "url": "internationalSubus_entertaiment",
+                "spanishName": "entertaiment",
+                "englishName": "entertaiment",
+                "frenchName": "entertaiment",
+                "spanishDescription": "<p>descripcion</p>",
+                "englishDescription": "<p>descripcion</p>",
+                "frenchDescription": "<p>descripcion</p>"
+            },
+            "highlights": [
+                {
+                    "id": 6,
+                    "desktopImage": "http://59a65efd.ngrok.io/api/v1/serve/2017/3/16/06f2bfc03c1b.jpg",
+                    "mobileImage": "http://59a65efd.ngrok.io/api/v1/serve/2017/3/16/7594242df9c7.png",
+                    "spanishTitle": null,
+                    "englishTitle": null,
+                    "frenchTitle": null,
+                    "spanishDescription": "<p>descripcion</p>",
+                    "englishDescription": "<p>descripcion</p>",
+                    "frenchDescription": "<p>descripcion</p>"
+                }
+            ],
+            "spanishSeoDescription": "<p>descripcion</p>",
+            "englishSeoDescription": "<p>descripcion</p>",
+            "frenchSeoDescription": "<p>descripcion</p>",
+            "url": "yellowstone",
+            "countryCode": "US",
+            "destinations": [
+                {
+                    "id": 6,
+                    "name": "yellowstone park"
+                }
+            ]
+        },
+        {
+            "spanishName": "Campaña 7",
+            "englishName": "Campaña 7",
+            "frenchName": "Campaña 7",
+            "classification": {
+                "id": 3,
+                "url": "international_us",
+                "spanishName": "Internacional",
+                "englishName": "Internacional",
+                "frenchName": "Internacional",
+                "spanishDescription": "<p>Descripcion</p>",
+                "englishDescription": "<p>Descripcion</p>",
+                "frenchDescription": "<p>Descripcion</p>",
+                "value": 1
+            },
+            "subclassification": {
+                "id": 4,
+                "classification": 4,
+                "url": "internationalSubus_entertaiment",
+                "spanishName": "entertaiment",
+                "englishName": "entertaiment",
+                "frenchName": "entertaiment",
+                "spanishDescription": "<p>descripcion</p>",
+                "englishDescription": "<p>descripcion</p>",
+                "frenchDescription": "<p>descripcion</p>"
+            },
+            "highlights": [
+                {
+                    "id": 7,
+                    "desktopImage": "http://59a65efd.ngrok.io/api/v1/serve/2017/3/16/38be28887101.jpg",
+                    "mobileImage": "http://59a65efd.ngrok.io/api/v1/serve/2017/3/16/0ac557b2ed9d.jpg",
+                    "spanishTitle": null,
+                    "englishTitle": null,
+                    "frenchTitle": null,
+                    "spanishDescription": "<p>descripcion</p>",
+                    "englishDescription": "<p>descripcion</p>",
+                    "frenchDescription": "<p>descripcion</p>"
+                }
+            ],
+            "spanishSeoDescription": "<p>descripcion</p>",
+            "englishSeoDescription": "<p>descripcion</p>",
+            "frenchSeoDescription": "<p>descripcion</p>",
+            "url": "lasVegas",
+            "countryCode": "US",
+            "destinations": [
+                {
+                    "id": 7,
+                    "name": "Las vegas"
+                }
+            ]
+        },
+        {
+            "spanishName": "Campaña 8",
+            "englishName": "Campaña 8",
+            "frenchName": "Campaña 8",
+            "classification": {
+                "id": 3,
+                "url": "international_us",
+                "spanishName": "Internacional",
+                "englishName": "Internacional",
+                "frenchName": "Internacional",
+                "spanishDescription": "<p>Descripcion</p>",
+                "englishDescription": "<p>Descripcion</p>",
+                "frenchDescription": "<p>Descripcion</p>",
+                "value": 1
+            },
+            "subclassification": {
+                "id": 4,
+                "classification": 4,
+                "url": "internationalSubus_entertaiment",
+                "spanishName": "entertaiment",
+                "englishName": "entertaiment",
+                "frenchName": "entertaiment",
+                "spanishDescription": "<p>descripcion</p>",
+                "englishDescription": "<p>descripcion</p>",
+                "frenchDescription": "<p>descripcion</p>"
+            },
+            "highlights": [
+                {
+                    "id": 8,
+                    "desktopImage": "http://59a65efd.ngrok.io/api/v1/serve/2017/3/16/035faf7e942e.jpg",
+                    "mobileImage": "http://59a65efd.ngrok.io/api/v1/serve/2017/3/16/3d40e0e0dcb1.jpg",
+                    "spanishTitle": null,
+                    "englishTitle": null,
+                    "frenchTitle": null,
+                    "spanishDescription": "<p>descripcion</p>",
+                    "englishDescription": "<p>descripcion</p>",
+                    "frenchDescription": "<p>descripcion</p>"
+                }
+            ],
+            "spanishSeoDescription": "<p>descripcion</p>",
+            "englishSeoDescription": "<p>descripcion</p>",
+            "frenchSeoDescription": "<p>descripcion</p>",
+            "url": "greatCannon",
+            "countryCode": "US",
+            "destinations": [
+                {
+                    "id": 8,
+                    "name": "Great cannon"
+                }
+            ]
+        }
+    ],
+    "success": true
+}
